@@ -5,12 +5,6 @@
 </ion-navbar>
 
 <ion-content class="home">
-  <ion-card>
-    <ion-card-header>
-      Card Header
-    </ion-card-header>
-    <ion-card-content>
-      Hello World
-    </ion-card-content>
-  </ion-card>
+    <button (click)="findChromecasts()" block>Find Chromecasts</button>
+    <div [innerHTML]="foundChromecasts"></div>
 </ion-content>
